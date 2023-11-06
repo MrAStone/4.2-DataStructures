@@ -23,6 +23,15 @@ namespace _4._2_DataStructures
             //  TwoDPt2[8, 8] = 2;
             int[,,] ThreeD = new int[3,3,5];
             ThreeD[0, 0, 0] = 0;
+
+            List<string> names = new List<string>();
+            names.Add("Bob");
+            names.Add("Bill");
+            names.Add("Betty");
+            names.Add("Bob");
+
+
+
             
             Queue<int> line = new Queue<int>();
             line.Enqueue(0);
